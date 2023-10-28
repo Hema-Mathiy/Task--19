@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException
 class task19:
     username = "standard_user"
     passward = "secret_sauce"
-    executable_path = r"C:\Users\Asus\Desktop\GUVI\task_outputs"
+
     def __init__(self,web_url):
         self.url = web_url
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
